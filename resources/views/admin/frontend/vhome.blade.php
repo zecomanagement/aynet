@@ -38,35 +38,67 @@
         <!-- Main content -->
     <div id="main-content" class="main-content">
 
-        <!-- Block 01: Main slide block-->
-        <div class="carousel-container">
-            <div class="carousel-section">
-                <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/seedlings.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                <h3><a href="{{route('shop.project.view')}}">Buy Trees</a></h3>
+        <div class="main-slide block-slider home-10__elm-01">
+            <ul class="biolife-carousel nav-none-on-mobile nav-insite-grid-1170 nav-larger" data-slick='{"arrows": true, "dots": false, "slidesMargin": 0, "slidesToShow": 1, "infinite": true, "speed": 800}' >
                 
-            </div>
-            <div class="carousel-section">
-                <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/forest.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                <h3><a href="{{route('view.trees')}}">Donate Trees</a></h3>
-                
-            </div>
-            <div class="carousel-section">
-                <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/tractor.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                <h3><a href="{{route('add.visit')}}">Visit Site</a></h3>
-                
-            </div>
-            
+                <li>
+                    <div class="slide-contain biolife-slide__ten">
+                        <div class="media"></div>
+                        <div class="text-content">
+                            <b class="second-line">Buy Trees</b>
+                            
+                            <p class="third-line">Get quality trees from our shops</p>
+                            <p class="buttons">
+                                <a href="{{route('shop.project.view')}}" class="btn">Buy Trees</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="slide-contain biolife-slide__ten biolife-slide__ten--elm-07">
+                        <div class="media"></div>
+                        <div class="text-content">
+                            <b class="second-line">Donate Trees</b>
+                            <p class="third-line">Donate trees</p>
+                            
+                            <p class="buttons">
+                                <a href="{{route('view.trees')}}" class="btn">Donate Trees</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="slide-contain biolife-slide__ten biolife-slide__ten--elm-02">
+                        <div class="media"></div>
+                        <div class="text-content">
+                            <b class="second-line">Visit Site</b>
+                            <p class="third-line">Book for a site visit</p>
+                            
+                            <p class="buttons">
+                                <a href="{{route('add.visit')}}" class="btn">Visit site</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="slide-contain biolife-slide__ten biolife-slide__ten--elm-04">
+                        <div class="media"></div>
+                        <div class="text-content">
+                            <b class="second-line">Sell Trees</b>
+                            <p class="third-line">Sell your trees at our marketplace</p>
+                            
+                            <p class="buttons">
+                                <a href="{{ route('add.sales') }}" class="btn">Start Selling</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <hr>
 
-        <!-- Block 02: Banners-->
-        
-
-        
-
-        <!-- Block 04: Product Tab-->
-        
-        
 
         <!-- Block 09: Brands-->
         <div class="home-10__elm-09">

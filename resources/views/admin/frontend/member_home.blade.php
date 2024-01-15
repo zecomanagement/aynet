@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Biolife - Organic Food</title>
+    <title>Aynet - Forests for Life</title>
     <link href="https://fonts.googleapis.com/css?family=Cairo:200,400,600,700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
@@ -30,7 +30,7 @@
             align-items: center;
         }
 
-        .carousel-container a{
+        .carousel-container a {
             color: #8BA740
         }
 
@@ -75,19 +75,22 @@
             <!-- Block 01: Main slide block-->
             <div class="carousel-container">
                 <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/seedlings.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                    <h3><a href="{{route('outgrower.view')}}">Grow Trees</a></h3>
-                    
+                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/seedlings.jpg') }}"
+                        alt="Image 1" style="height:500px; width:100%; padding:30px;">
+                    <h3><a href="{{ route('outgrower.view') }}">Grow Trees</a></h3>
+
                 </div>
                 <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/forest.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                    <h3><a href="{{route('virtual.view')}}">Trade Trees</a></h3>
-                    
+                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/forest.jpg') }}"
+                        alt="Image 1" style="height:500px; width:100%; padding:30px;">
+                    <h3><a href="{{ route('virtual.view') }}">Trade Trees</a></h3>
+
                 </div>
                 <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/lumber.jpg') }}" alt="Image 1" style="height:500px; width:100%; padding:30px;">
-                    <h3><a href="{{route('consumer.view')}}">Buy Tree Products</a></h3>
-                    
+                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/lumber.jpg') }}"
+                        alt="Image 1" style="height:500px; width:100%; padding:30px;">
+                    <h3><a href="{{ route('consumer.view') }}">Buy Tree Products</a></h3>
+
                 </div>
             </div>
             <hr>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Biolife - Organic Food</title>
+    <title>Aynet - Forests for Life</title>
     <link href="https://fonts.googleapis.com/css?family=Cairo:200,400,600,700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
@@ -31,7 +31,7 @@
             align-items: center;
         }
 
-        .carousel-container a{
+        .carousel-container a {
             color: #8BA740
         }
 
@@ -76,29 +76,48 @@
         <!-- Main content -->
         <div id="main-content" class="main-content">
 
-            <!-- Block 01: Main slide block-->
-            <div class="carousel-container">
-                <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/lumber.jpg') }}" alt="Image 1">
-                    <h3><a href="{{route('view.ep')}}">Lumber</a></h3>
+            <div class="main-slide block-slider home-10__elm-01">
+                <ul class="biolife-carousel nav-none-on-mobile nav-insite-grid-1170 nav-larger" data-slick='{"arrows": true, "dots": false, "slidesMargin": 0, "slidesToShow": 1, "infinite": true, "speed": 800}' >
                     
-                </div>
-                <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/lumber.jpg') }}" alt="Image 1" >
-                    <h3><a href="{{route('view.ep')}}">Furniture</a></h3>
+                    <li>
+                        <div class="slide-contain biolife-slide__ten biolife-slide__ten--elm-03">
+                            <div class="media"></div>
+                            <div class="text-content">
+                                <b class="second-line">Lumber</b>
+                                
+                                <p class="third-line">Get quality lumber from our shops</p>
+                                <p class="buttons">
+                                    <a href="{{ route('view.ep') }}" class="btn">Start Buying</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="slide-contain biolife-slide__ten biolife-slide__ten--elm-05">
+                            <div class="media"></div>
+                            <div class="text-content">
+                                <b class="second-line">Biofuel</b>
+                                <p class="third-line">Get quality fuel from our stores</p>
+                                
+                                <p class="buttons">
+                                    <a href="{{ route('view.ep') }}" class="btn">Start Buying</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+    
                     
-                </div>
-                <div class="carousel-section">
-                    <img class="carousel-image" src="{{ asset('frontend/assets/images/home-10/briquettes.jpg') }}" alt="Image 1" >
-                    <h3><a href="{{route('view.ep')}}">Bio Fuel</a></h3>
+    
                     
-                </div>
-                
+    
+                </ul>
             </div>
-            <hr>
+
+            
 
             <!-- Block 09: Brands-->
-            <div class="home-10__elm-09">
+            {{--<div class="home-10__elm-09">
                 <div class="container">
                     <div class="biolife-brands">
                         <div class="biolife-brands__list-inline">
@@ -125,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--}}
 
 
 

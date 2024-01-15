@@ -17,9 +17,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        County::factory()->create();
-        SubCounty::factory()->create();
-        Ward::factory()->create();
+        
+
+        $this->call(CountiesTableSeeder::class);
+        $this->call(SubCountiesTableSeeder::class);
+        $this->call(WardsTableSeeder::class);
 
     }
 }
